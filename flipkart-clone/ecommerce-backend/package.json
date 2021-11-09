@@ -1,0 +1,33 @@
+{
+  "name": "flipkart-clone",
+  "version": "1.0.0",
+  "description": "flipkart-clone mern",
+  "main": "index.js",
+  "scripts": {
+    "development_env": "nodemon ./src/index.js",
+    "start": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "react",
+    "backend-api"
+  ],
+  "author": "Chander",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "dev": "^0.1.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.8",
+    "slugify": "^1.6.1",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
